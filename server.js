@@ -20,7 +20,7 @@ app.get('/app/flip/', (req, res) => {
     res.status(200).json({"flip" : coinFlip()})
 });
 
-app.get('/app/flip/:number', (req, res) => {
+app.get('/app/flips/:number', (req, res) => {
     var flips = coinFlips(req.params.number)
     res.status(200).json({"raw" : flips, "summary" : countFlips(flips)})
 });
