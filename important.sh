@@ -1,5 +1,5 @@
 NUM=$1
-while [ $NUM>0 ]
+while [ $NUM -ge 0 ]
 do
     touch temporarytestcases.txt
     git add -A
@@ -9,6 +9,6 @@ do
     git add -A
     git commit -m "Small changes to output"
     #git push
-    ((NUM=NUM-1))
+    NUM=$((NUM-1))
     echo $NUM
 done
