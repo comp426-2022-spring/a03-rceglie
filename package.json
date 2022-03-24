@@ -1,8 +1,4 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "require": "^2.4.20"
-=======
   "name": "a03-rceglie",
   "version": "1.0.0",
   "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7067592&assignment_repo_type=AssignmentRepo) # a03 This assignment will introduce creating APIs using Express.js",
@@ -23,6 +19,5 @@
   "dependencies": {
     "express": "^4.17.3",
     "minimist": "^1.2.5"
->>>>>>> 75b35cc10caefdfcea5f4bb13bed1a419b9ae639
   }
 }
