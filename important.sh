@@ -1,5 +1,5 @@
 NUM=$1
-while [ $NUM -ge 0 ]
+while [ $NUM -ge 1 ]
 do
     touch temporarytestcases.txt
     git add -A
