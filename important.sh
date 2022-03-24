@@ -4,10 +4,11 @@ do
     touch temporarytestcases.txt
     git add -A
     git commit -m "Small changes to output"
-    git push
+    #git push
     rm -rf temporarytestcases.txt
     git add -A
     git commit -m "Small changes to output"
-    git push
+    #git push
     NUM=NUM-1
+    echo NUM
 done
