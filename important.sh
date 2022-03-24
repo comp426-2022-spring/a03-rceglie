@@ -9,6 +9,6 @@ do
     git add -A
     git commit -m "Small changes to output"
     #git push
-    NUM=NUM-1
-    echo NUM
+    NUM=$NUM-1
+    echo $NUM
 done
